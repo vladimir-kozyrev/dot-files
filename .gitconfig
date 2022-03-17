@@ -1,0 +1,12 @@
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+[user]
+        name = Vladimir Kozyrev
+        email = v.kozyrev.sa@gmail.com
+[pager]
+	      branch = false
+[core]
+      	pager = cat
