@@ -14,8 +14,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-rails'
-Plug 'vim-ruby/vim-ruby'
 Plug 'vim-test/vim-test'
 Plug 'jiangmiao/auto-pairs'
 Plug 'hashivim/vim-terraform'
@@ -45,3 +43,5 @@ nnoremap <C-l> :nohlsearch<CR>
 set nu
 highlight CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 set cursorline
+
+nmap <F1> <nop>
