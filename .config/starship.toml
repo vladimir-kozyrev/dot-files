@@ -1,11 +1,18 @@
 [kubernetes]
 disabled = true
 format = 'on [⛵ $context \($namespace\)](green) '
+
 [nodejs]
 disabled = true
+
 [gcloud]
 disabled = true
+
 [cmd_duration]
 disabled = true
+
 [terraform]
 disabled = true
+
+[python]
+pyenv_version_name = true
